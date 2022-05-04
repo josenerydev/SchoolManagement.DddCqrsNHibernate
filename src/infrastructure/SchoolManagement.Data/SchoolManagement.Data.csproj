@@ -1,6 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="CSharpFunctionalExtensions" Version="2.29.1" />
+    <PackageReference Include="FluentNHibernate" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="NHibernate" Version="5.3.11" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\core\SchoolManagement.Domain\SchoolManagement.Domain.csproj" />
     <ProjectReference Include="..\..\core\SchoolManagement.Application\SchoolManagement.Application.csproj" />
   </ItemGroup>
